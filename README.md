@@ -2,9 +2,37 @@
 A user interface with authentication to manage your job applications.
 
 ## Table of contents
+- [System Architecture](#system-architecture)
 - [Dependencies](#dependencies)
 - [Usage](#usage)
 - [Features](#features)
+
+## System Architecture
+- Software design: Model-View-Controller (MVC)
+### Model (Mongoose schema)
+```mermaid
+erDiagram
+    users ||--o{ jobs : "has"
+    users {
+        ObjectId _id PK
+        string email
+        string password
+        date createdAt
+        date updatedAt
+    }
+    jobs {
+        ObjectId _id PK
+        ObjectId userId FK
+        string role
+        string company
+        string type
+        string status
+        string notes
+        date createdAt
+        date updatedAt
+    }
+
+```
 
 ## Dependencies
 ### Frontend (client)
