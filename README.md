@@ -3,8 +3,7 @@ A user interface with authentication to manage your job applications.
 
 ## Table of contents
 - [Dependencies](#dependencies)
-- [Installation](#installation)
-- [Setup](#setup)
+- [Usage](#usage)
 - [Features](#features)
 
 ## Dependencies
@@ -14,21 +13,25 @@ A user interface with authentication to manage your job applications.
 ### Backend (server)
 - Node.js
 - Express.js
-- MongoDB via Mongoose Object Data Modeling (ODM) library.
+- MongoDB and Mongoose Object Data Modeling (ODM) library.
 - JSON web tokens (JWT).
 - bcrypt for hashing.
 
-## Installation
-### Option 1: Using Git Bash.
-```
-# Downloads a copy on the local machine
-git clone https://github.com/klbdev/Job-Tracker-App
-```
-### Option 2: Download the repository.
-1. Click the green **Code** button.
-2. Select **Download ZIP**.
-3. Extract the ZIP file.
+## Usage
+### Register
+- All users must register an account to use the application. An alert will be shown to indicate a successful registration.
+### Login
+- Simple login page interface with JWT for session token and bcrypt for password comparison.
+### Dashboard
+- Displays the logged in user on the top right of the navigation bar
+- Displays jobs saved into MongoDB belonging to the logged in user.
+- Clicking **Update** on a card will open an offcanvas with a prefilled form based on the current value.
+- Clicking **Delete** on a card will permanently delete the job entry.
+### New
+- Displays a form to input a new job entry. An alert will be shown to indicate a successful input.
 
-## Setup
-
-
+## Features
+### Filter
+- User can sort by date in ascending or descending order, and add job type and status filters. Click **Apply** to set the filter.
+### Pagination
+- The pagination component displays a maximum of 5 entries per page to reduce scrolling.
