@@ -17,8 +17,8 @@ erDiagram
         ObjectId _id PK
         string email
         string password
-        date createdAt
-        date updatedAt
+        Date createdAt
+        Date updatedAt
     }
     jobs {
         ObjectId _id PK
@@ -28,8 +28,8 @@ erDiagram
         string type
         string status
         string notes
-        date createdAt
-        date updatedAt
+        Date createdAt
+        Date updatedAt
     }
 
 ```
