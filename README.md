@@ -35,3 +35,4 @@ A user interface with authentication to manage your job applications.
 - User can sort by date in ascending or descending order, and add job type and status filters. Click **Apply** to set the filter.
 ### Pagination
 - The pagination component displays a maximum of 5 entries per page to reduce scrolling.
+- Applying a filter will automatically shift the pagination back to the first page.
