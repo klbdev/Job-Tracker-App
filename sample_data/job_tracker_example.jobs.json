@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "6a5c9af2b5aa27ea875b4fc6"
+  },
+  "userId": {
+    "$oid": "6a4f970e464b76ef4d9f542e"
+  },
+  "role": "Role A",
+  "company": "Company A",
+  "type": "Full Time",
+  "status": "Applied",
+  "notes": "your notes here",
+  "createdAt": {
+    "$date": "2026-07-19T09:37:54.977Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-19T09:37:54.977Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5c9b03b5aa27ea875b4fc7"
+  },
+  "userId": {
+    "$oid": "6a4f970e464b76ef4d9f542e"
+  },
+  "role": "Role B",
+  "company": "Company B",
+  "type": "Full Time",
+  "status": "Interviewing",
+  "notes": "line 1\nline 2\nline 3.",
+  "createdAt": {
+    "$date": "2026-07-19T09:38:11.197Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-19T09:38:11.197Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5c9b2bb5aa27ea875b4fc8"
+  },
+  "userId": {
+    "$oid": "6a4f970e464b76ef4d9f542e"
+  },
+  "role": "Role C",
+  "company": "Company C",
+  "type": "Full Time",
+  "status": "Accepted",
+  "notes": "notes.",
+  "createdAt": {
+    "$date": "2026-07-19T09:38:51.291Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-19T09:38:51.291Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5c9b36b5aa27ea875b4fc9"
+  },
+  "userId": {
+    "$oid": "6a4f970e464b76ef4d9f542e"
+  },
+  "role": "Role D",
+  "company": "Company D",
+  "type": "Full Time",
+  "status": "Rejected",
+  "notes": "",
+  "createdAt": {
+    "$date": "2026-07-19T09:39:02.426Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-19T09:39:02.426Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5c9b4cb5aa27ea875b4fca"
+  },
+  "userId": {
+    "$oid": "6a4f970e464b76ef4d9f542e"
+  },
+  "role": "Role E",
+  "company": "Company E",
+  "type": "Part Time",
+  "status": "Applied",
+  "notes": "part time",
+  "createdAt": {
+    "$date": "2026-07-19T09:39:24.723Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-19T09:39:24.723Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5c9b5bb5aa27ea875b4fcb"
+  },
+  "userId": {
+    "$oid": "6a4f970e464b76ef4d9f542e"
+  },
+  "role": "Role F",
+  "company": "Company F",
+  "type": "Internship",
+  "status": "Applied",
+  "notes": "",
+  "createdAt": {
+    "$date": "2026-07-19T09:39:39.558Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-19T09:39:39.558Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5c9b69b5aa27ea875b4fcc"
+  },
+  "userId": {
+    "$oid": "6a4f970e464b76ef4d9f542e"
+  },
+  "role": "Role G",
+  "company": "Company G",
+  "type": "Contract",
+  "status": "Applied",
+  "notes": "",
+  "createdAt": {
+    "$date": "2026-07-19T09:39:53.042Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-19T09:39:53.042Z"
+  },
+  "__v": 0
+}]
